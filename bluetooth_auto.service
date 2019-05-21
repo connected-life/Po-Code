@@ -1,0 +1,9 @@
+[Unit]
+Description=Auto Connection Service
+
+[Service]
+Type=idle
+ExecStart=/PATHtoFILE/Po-Code/bluetooth_auto.sh
+
+[Install]
+WantedBy=multi-user.target
